@@ -16,6 +16,8 @@ program
 
 program.parse(process.argv)
 
-Iconizer.iconize(program.input, program.output);
-
-if(program.input === undefined) program.help()
+if(program.input === undefined) {
+	program.help()
+	process.exit(1)
+}
+Iconizer.iconize(program.input, program.output)
