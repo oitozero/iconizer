@@ -1,0 +1,26 @@
+{
+  "name": "iconizer",
+  "version": "0.0.1",
+  "description": "A Command line utility for iconizer",
+  "main": "iconizer.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oitozero/iconizer.git"
+  },
+  "keywords": [
+    "iconizer", "cli"
+  ],
+  "homepage": "https://github.com/oitozero/iconizer",
+  "bugs" :
+    { "url" : "https://github.com/oitozero/iconizer/issues" },
+  "author": "Pedro Sampaio <pedro@oitozero.com> (http://oitozero.com)",
+  "license": "MIT",
+  "readmeFilename": "Readme.md",
+  "dependencies": {
+    "commander": "~2.0.0",
+    "imagemagick": "~0.1.3"
+  },
+  "bin": {
+    "iconizer": "./bin/iconizer"
+  }
+}

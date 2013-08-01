@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var Iconizer = require('../iconizer');
+
+var i_flag = '-i, --input [file]'
+var i_desc = 'path to input file'
+var o_flag = '-o, --output [directory]'
+var o_desc = 'path to output directory'
+var o_default = './output/'
+
+program
+  .version('0.0.1')
+  .option(i_flag, i_desc)
+  .option(o_flag, o_desc, o_default)
+
+program.parse(process.argv)
+
+Iconizer.iconize(program.input, program.output);
+
+if(program.input === undefined) program.help()
