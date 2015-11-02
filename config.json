@@ -12,18 +12,6 @@
 	"type:": "store"
 },
 {
-	"size": "57x57",
-	"name": "Icon.png",
-	"os": "ios",
-	"type:": "iphone"
-},
-{
-	"size": "114x114",
-	"name": "Icon@2x.png",
-	"os": "ios",
-	"type:": "iphone"
-},
-{
 	"size": "29x29",
 	"name": "Icon-Small.png",
 	"os": "ios",
@@ -35,29 +23,58 @@
 	"os": "ios",
 	"type:": "iphone"
 },
-
 {
-	"size": "57x57",
-	"name": "Icon-72.png",
+	"size": "87x87",
+	"name": "Icon-Small@3x.png",
+	"os": "ios",
+	"type:": "iphone"
+},
+{
+	"size": "40x40",
+	"name": "Icon-40.png",
 	"os": "ios",
 	"type:": "ipad"
 },
 {
-	"size": "144x144",
-	"name": "Icon-72@2x.png",
+	"size": "80x80",
+	"name": "Icon-40@2x.png",
 	"os": "ios",
 	"type:": "ipad"
 },
 {
-	"size": "50x50",
-	"name": "Icon-Small-50.png",
+	"size": "120x120",
+	"name": "Icon-40@3x.png",
 	"os": "ios",
 	"type:": "ipad"
 },
 {
-	"size": "100x100",
-	"name": "Icon-Small-50@2x.png",
+	"size": "120x120",
+	"name": "Icon-60@2x.png",
+	"os": "ios",
+	"type:": "iphone"
+},
+{
+	"size": "180x180",
+	"name": "Icon-60@3x.png",
+	"os": "ios",
+	"type:": "iphone"
+},
+{
+	"size": "76x76",
+	"name": "Icon-76.png",
 	"os": "ios",
 	"type:": "ipad"
+},
+{
+	"size": "152x152",
+	"name": "Icon-76@2x.png",
+	"os": "ios",
+	"type:": "ipad"
+},
+{
+	"size": "120x120",
+	"name": "Icon-120@.png",
+	"os": "ios",
+	"type:": "carplay"
 }
 ]
