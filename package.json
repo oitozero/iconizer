@@ -1,6 +1,6 @@
 {
   "name": "iconizer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Command line utility for iconizer",
   "main": "iconizer.js",
   "repository": {
